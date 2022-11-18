@@ -1,4 +1,4 @@
-import atools
+from atools import *
 
 menu_text = "Test Menu:\n A: Test Program\n('exit' to quit) "
 
