@@ -26,7 +26,7 @@ config = {
 
 
 modules = [
-    'math'
+    'wget'
 ]
 
 module = {}
