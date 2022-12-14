@@ -34,14 +34,15 @@ def download_file():
 
 
 def remove_mods():
-    os.system(f"remove {minecraft_dir}\\mods\\*")
+    os.system(f"rm -f {minecraft_dir}\\mods\\*")
 
 functions = {
     'a': set_folder,
     'b': test,
     'c': test_download,
     'd': download_mod,
-    'e': remove_mods
+    'e': remove_mods,
+    'f': download_file
 }
 
 menu = Menu(functions, menu_text, use_inputmsg = True)
