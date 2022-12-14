@@ -22,6 +22,7 @@ def test_download():
 
 def autoinstall(modurl):
     modname = wget.download(modurl)
+    os.system(f"mkdir {minecraft_dir}\\mods")
     os.system(f'move "{modname}" {minecraft_dir}\\mods\\')
 
 def download_mod():
@@ -34,7 +35,8 @@ def download_file():
 
 
 def remove_mods():
-    os.system(f"rm -f {minecraft_dir}\\mods\\*")
+    os.system(f"rmdir {minecraft_dir}\\mods /s /q")
+    os.system(f"mkdir {minecraft_dir}\\mods")
 
 functions = {
     'a': set_folder,
